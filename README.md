@@ -73,5 +73,9 @@ http://localhost:58099/company/view?title=RTT_United_Kingdom_MOB_AD_test&limit=1
     + Имитация блеска.
 
 
+Выбор инструментов - на усмотрение разработчика.
+
+В качестве плюса - деплой готового решения в docker-контейнере.
+
 
 
