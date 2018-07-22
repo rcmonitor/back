@@ -12,6 +12,7 @@ func fListCompany(w http.ResponseWriter, r *http.Request)  {
 	slFile, err := ioutil.ReadDir("./csv")
 
 	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
 
 	if err != nil {
 		fmt.Fprintf(w, `{"error": "%s"}`, err)
